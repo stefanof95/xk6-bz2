@@ -7,7 +7,7 @@ import (
 )
 
 func init() {
-	modules.Register("k6/compression/bz2", new(BZ2))
+	modules.Register("k6/x/bz2", new(BZ2))
 }
 
 type BZ2 struct{}
